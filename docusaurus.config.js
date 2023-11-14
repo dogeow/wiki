@@ -130,6 +130,12 @@ const config = {
             activeBaseRegex: `/php/`,
           },
           {
+            to: '/laravel/Intro',
+            label: 'Laravel',
+            position: 'left',
+            activeBaseRegex: `/laravel/`,
+          },
+          {
               to: '/python/Intro',
               label: 'Python',
               position: 'left',
