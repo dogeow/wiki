@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '编程笔记',
-  tagline: '坏记忆，只能烂笔头',
+  tagline: '软件开发是一门技术，更是一门艺术！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -35,6 +35,15 @@ const config = {
   },
 
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'programmer',
+        path: 'programmer',
+        routeBasePath: 'programmer',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -119,6 +128,12 @@ const config = {
             label: 'PHP',
             position: 'left',
             activeBaseRegex: `/php/`,
+          },
+          {
+            to: '/programmer/Intro',
+            label: '程序员',
+            position: 'left',
+            activeBaseRegex: `/programmer/`,
           },
           {
               to: '/python/Intro',
