@@ -38,15 +38,6 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'laravel',
-        path: 'laravel',
-        routeBasePath: 'laravel',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
         id: 'php',
         path: 'php',
         routeBasePath: 'php',
@@ -128,12 +119,6 @@ const config = {
             label: 'PHP',
             position: 'left',
             activeBaseRegex: `/php/`,
-          },
-          {
-            to: '/laravel/Intro',
-            label: 'Laravel',
-            position: 'left',
-            activeBaseRegex: `/laravel/`,
           },
           {
               to: '/python/Intro',
