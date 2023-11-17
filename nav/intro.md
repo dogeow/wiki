@@ -7,4 +7,4 @@
 
 ## 常用
 
-- 谷歌翻译
+- [谷歌翻译](https://translate.google.com/?hl=zh-CN)

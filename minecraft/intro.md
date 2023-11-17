@@ -1,47 +1,125 @@
----
-sidebar_position: 1
----
+## 环境
 
-# Tutorial Intro
+- 客户端：macOS
+- 服务端：Ubuntu
+  - CPU：禁止外挂的话，2 人 2 核心，如果没有禁止外挂的话，需要 4 核心。
+  - 内存：建议 4G 以上。
+  - 带宽：一人玩 8 小时，差不多 1G 到 2G 流量，同时在线人数 10 人左右，需要 4M 带宽。
+  - 硬盘：2B2T 类型，两天增加 1GB。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 服务端
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```
+apt-get install openjdk-17-jdk
+# 从这个网址下载最新版本的 MineCraft 服务端：https://www.minecraft.net/zh-hans/download/server/
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+# 修改 eula.txt，改为 true
+# 修改 server.properties，改为 online-mode=false
+# 重新运行
+java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 其他引擎
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- [Bukkit](https://dev.bukkit.org/)
+- [Paper](https://papermc.io/)
 
-## Start your site
+### 服务端设置
 
-Run the development server:
+[粘性活塞复制物品](https://zhuanlan.zhihu.com/p/179261851)
 
-```bash
-cd my-website
-npm run start
-```
+https://www.mcmod.cn/class/10718.html
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### 解释
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+online-mode=false：正版验证。如果你没有买正版，就要关闭这个选项，然后其他玩家都可以进了。
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+如果你想要是正版才能进，改为 true。正版好像就只有别人能够看到自己的皮肤，其他好处没发现。
+
+## 客户端
+
+1. TLauncher
+2. PCL
+3. HMCL
+4. 官方启动器（垃圾）
+5. Moon
+6. [Fold](https://github.com/FCL-Team/FoldCraftLauncher/releases)（安卓手机）
+
+## 外挂
+
+- Future
+- Wurst
+- Meteor
+- https://www.vape.gg/
+- Rusherhack
+
+## Mod
+
+服务器安装 forge，从官网下载：https://files.minecraftforge.net/net/minecraftforge/forge/。服务端和客户端都要安装。
+
+客户端安装 fabric，放 fabric api 到 mods，以及 Sodium+ lris mods
+
+mod 推荐
+
+1. https://www.mcmod.cn/class/3693.html
+2. journey map
+3. fastasyncworldedit
+4. Xaeros_Minimap_
+5. Authme
+   - https://pluginscdtribe.github.io/wiki/authme/Name-Restrictions.html
+
+[Minecraft插件百科](https://mineplugin.org/%E9%A6%96%E9%A1%B5)
+
+## 光影
+
+前置条件，可选：optifine
+
+光影包推荐：
+
+* 低配置：BSL
+* 高配置：Astralex
+
+放置到：/.minecraft/shaders
+
+- https://wiki.shaderlabs.org/wiki/Shaderpacks
+- [SEUS](https://www.sonicether.com/seus/#downloads)
+
+## 材质包
+
+## 创造模式
+
+命令行
+
+- clone
+- structure
+
+## 免费服务器
+
+https://aternos.org/:zh-CN/
+
+> CPU 比较差点，加载区块慢，其他挺好的，可以上传备份、下载备份等
+
+## 学习网站
+
+https://www.tudoubaba.net/
+
+## 皮肤
+
+https://namemc.com/minecraft-skins/trending
+
+## 2B2T
+
+https://2b2t.miraheze.org/wiki/Front_Page
+
+
+## 辅助工具
+
+- https://www.mcnav.net/
+- https://minecraft.tools/en/motd.php
+- https://minecraft-heads.com/player-heads
+- https://magma.ink/bluemap/
+- https://www.plotz.co.uk/
+- https://www.chunkbase.com/apps/
+### motd
+
+- https://tools.fadehost.com/motd-generator

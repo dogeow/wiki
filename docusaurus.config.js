@@ -65,6 +65,24 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'javascript',
+        path: 'javascript',
+        routeBasePath: 'javascript',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'react',
+        path: 'react',
+        routeBasePath: 'react',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'programmer',
         path: 'programmer',
         routeBasePath: 'programmer',
@@ -77,6 +95,15 @@ const config = {
         id: 'php',
         path: 'php',
         routeBasePath: 'php',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'laravel',
+        path: 'laravel',
+        routeBasePath: 'laravel',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
@@ -151,10 +178,10 @@ const config = {
             position: 'right',
           },
           {
-            to: '/php/Intro',
-            label: 'PHP',
+            to: '/nav/Intro',
+            label: '导航',
             position: 'left',
-            activeBaseRegex: `/php/`,
+            activeBaseRegex: `/nav/`,
           },
           {
             to: '/programmer/Intro',
@@ -163,10 +190,28 @@ const config = {
             activeBaseRegex: `/programmer/`,
           },
           {
-              to: '/python/Intro',
-              label: 'Python',
-              position: 'left',
-              activeBaseRegex: `/python/`,
+            to: '/php/Intro',
+            label: 'PHP',
+            position: 'left',
+            activeBaseRegex: `/php/`,
+          },
+          {
+            to: '/laravel/Intro',
+            label: 'Laravel',
+            position: 'left',
+            activeBaseRegex: `/laravel/`,
+          },
+          {
+            to: '/javascript/Intro',
+            label: 'JavaScript',
+            position: 'left',
+            activeBaseRegex: `/javascript/`,
+          },
+          {
+            to: '/react/Intro',
+            label: 'React',
+            position: 'left',
+            activeBaseRegex: `/reat/`,
           },
           {
               to: '/linux/Intro',
@@ -175,16 +220,16 @@ const config = {
               activeBaseRegex: `/linux/`,
           },
           {
+            to: '/python/Intro',
+            label: 'Python',
+            position: 'left',
+            activeBaseRegex: `/python/`,
+          },
+          {
             to: '/live/Intro',
             label: 'Live',
             position: 'left',
             activeBaseRegex: `/live/`,
-          },
-          {
-            to: '/nav/Intro',
-            label: 'Nav',
-            position: 'left',
-            activeBaseRegex: `/nav/`,
           },
           {
             to: '/minecraft/Intro',
