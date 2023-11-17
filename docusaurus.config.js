@@ -38,6 +38,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'live',
+        path: 'live',
+        routeBasePath: 'live',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'programmer',
         path: 'programmer',
         routeBasePath: 'programmer',
@@ -146,6 +155,12 @@ const config = {
               label: 'Linux',
               position: 'left',
               activeBaseRegex: `/linux/`,
+          },
+          {
+            to: '/live/Intro',
+            label: 'Live',
+            position: 'left',
+            activeBaseRegex: `/live/`,
           },
           {to: '/blog', label: 'Blog', position: 'left'},
         ],
