@@ -38,6 +38,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'nav',
+        path: 'nav',
+        routeBasePath: 'nav',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'live',
         path: 'live',
         routeBasePath: 'live',
@@ -161,6 +170,12 @@ const config = {
             label: 'Live',
             position: 'left',
             activeBaseRegex: `/live/`,
+          },
+          {
+            to: '/nav/Intro',
+            label: 'Nav',
+            position: 'left',
+            activeBaseRegex: `/nav/`,
           },
           {to: '/blog', label: 'Blog', position: 'left'},
         ],
