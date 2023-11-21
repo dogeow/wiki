@@ -120,6 +120,7 @@ https://2b2t.miraheze.org/wiki/Front_Page
 - https://magma.ink/bluemap/
 - https://www.plotz.co.uk/
 - https://www.chunkbase.com/apps/
+
 ### motd
 
 - https://tools.fadehost.com/motd-generator

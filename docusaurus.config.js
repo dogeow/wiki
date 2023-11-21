@@ -38,6 +38,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'others',
+        path: 'others',
+        routeBasePath: 'others',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'minecraft',
         path: 'minecraft',
         routeBasePath: 'minecraft',
@@ -132,13 +141,6 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -166,14 +168,7 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docusaurus',
-          },
-
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dogeow/wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -237,21 +232,18 @@ const config = {
             position: 'left',
             activeBaseRegex: `/minecraft/`,
           },
+          {
+            to: '/others/Intro',
+            label: '杂项',
+            position: 'left',
+            activeBaseRegex: `/others/`,
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
@@ -278,7 +270,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/dogeow/wiki',
               },
             ],
           },
