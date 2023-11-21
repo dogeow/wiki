@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '终身编程者',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       编程者就像画家🧑‍🎨、魔法师🧙等等一样。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '热爱分享',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        技术应该保持创新。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '生活和工作一样重要',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       活到老学到老，保持好身体健康和心情舒畅。
       </>
     ),
   },

@@ -245,24 +245,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: '旗下网站',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '2B2T 服务器状态',
+                href: 'https://status.mc.dogeow.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Doge 先锋',
+                href: 'https://dogeow.com',
               },
             ],
           },
           {
-            title: 'More',
+            title: '本网站',
             items: [
               {
                 label: 'Blog',
@@ -275,7 +271,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DogeOW`,
+        copyright: `Copyright © ${new Date().getFullYear()} DogeOW. 使用 <a href="https://docusaurus.io/zh-CN" target="_blank">Docusaurus</a> 构建。`,
       },
       prism: {
         theme: prismThemes.github,
