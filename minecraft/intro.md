@@ -43,6 +43,7 @@ online-mode=false：正版验证。如果你没有买正版，就要关闭这个
 3. HMCL
 4. 官方启动器（垃圾）
 5. Moon
+6. Lunar
 6. [Fold](https://github.com/FCL-Team/FoldCraftLauncher/releases)（安卓手机）
 
 ## 外挂
@@ -61,12 +62,15 @@ online-mode=false：正版验证。如果你没有买正版，就要关闭这个
 
 mod 推荐
 
-1. https://www.mcmod.cn/class/3693.html
-2. journey map
-3. fastasyncworldedit
-4. Xaeros_Minimap_
-5. Authme
+1. Litematica
+2. https://www.mcmod.cn/class/3693.html
+3. journey map
+4. fastasyncworldedit
+5. Xaeros_Minimap_
+6. Authme
    - https://pluginscdtribe.github.io/wiki/authme/Name-Restrictions.html
+7. LittleTiles
+8. WTHIT
 
 [Minecraft插件百科](https://mineplugin.org/%E9%A6%96%E9%A1%B5)
 
