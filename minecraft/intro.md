@@ -44,7 +44,7 @@ online-mode=false：正版验证。如果你没有买正版，就要关闭这个
 4. 官方启动器（垃圾）
 5. Moon
 6. Lunar
-6. [Fold](https://github.com/FCL-Team/FoldCraftLauncher/releases)（安卓手机）
+7. [Fold](https://github.com/FCL-Team/FoldCraftLauncher/releases)（安卓手机）
 
 ## 外挂
 
@@ -106,6 +106,10 @@ https://aternos.org/:zh-CN/
 ## 学习网站
 
 https://www.tudoubaba.net/
+
+## 资源网站
+
+https://modrinth.com/modpacks
 
 ## 皮肤
 
