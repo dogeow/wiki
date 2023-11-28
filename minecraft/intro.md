@@ -69,6 +69,7 @@ mod 推荐
 5. Xaeros_Minimap_
 6. Authme
    - https://pluginscdtribe.github.io/wiki/authme/Name-Restrictions.html
+   - https://mineplugin.org/Authme
 7. LittleTiles
 8. WTHIT
 
