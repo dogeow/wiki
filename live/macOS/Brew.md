@@ -39,6 +39,6 @@ cd $(brew --repo)/Library/Taps/homebrew/homebrew-core
 git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git 
 ```
 
-原本为 <https://github.com/Homebrew/homebrew-core.git>
+原本为 https://github.com/Homebrew/homebrew-core.git
 
 ## homebrew-cask

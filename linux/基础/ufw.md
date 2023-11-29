@@ -24,6 +24,6 @@
 
 ## 参考
 
-<http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97>
+http://wiki.ubuntu.org.cn/Ufw%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97
 
-<https://help.ubuntu.com/community/UFW>
+https://help.ubuntu.com/community/UFW

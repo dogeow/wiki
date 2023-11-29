@@ -12,9 +12,9 @@ three-orbitcontrols 鼠标交互
 
 ## 基础
 
--   [场景](场景 "wikilink") scene
--   [相机](相机 "wikilink") camera
--   [渲染器](渲染器 "wikilink") renderer
+- [场景](场景 "wikilink") scene
+- [相机](相机 "wikilink") camera
+- [渲染器](渲染器 "wikilink") renderer
 
 挂载 Canvas，使
 
@@ -36,11 +36,11 @@ FPS
 
 ## 控制器
 
--   指针锁定控制器
--   [轨道控制器](轨道控制器 "wikilink")
+- 指针锁定控制器
+- [轨道控制器](轨道控制器 "wikilink")
 
 ## 教程
 
--   <https://threejsfundamentals.org/>
--   <http://www.hewebgl.com/article/articledir/1>
--   <https://www.ituring.com.cn/book/1272>
+- https://threejsfundamentals.org/
+- http://www.hewebgl.com/article/articledir/1
+- https://www.ituring.com.cn/book/1272
