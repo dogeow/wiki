@@ -14,8 +14,8 @@
 ## 命令[^1][^2]
 
 1.  ufw status
-2.  ufw \[\--dry-run\] enable\|disable\|reload
-3.  \[\--dry-run\]选项，仅显示运行结果而不实际运行
+2.  ufw [--dry-run] enable|disable|reload
+3.  [--dry-run]选项，仅显示运行结果而不实际运行
 4.  ufw delete allow 22
 5.  ufw allow 22/tcp
 6.  ufw allow from 4.4.4.4，允许某个ip
