@@ -1,0 +1,2 @@
+- [凡人琐忆](https://ruanqizhen.wordpress.com/) （从 [Python 教程](https://py.qizhen.xyz/) 关注）
+- [Hello 算法](https://www.hello-algo.com/)

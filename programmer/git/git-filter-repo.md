@@ -13,6 +13,8 @@ pip3 install git-filter-repo
 git-filter-repo --email-callback 'return email.replace(b"alibaba-inc.com", b"example.com")' --force  --refs master
 ```
 
+> https://help.aliyun.com/document_detail/206833.html
+
 ## 替换某个邮箱及其用户名
 
 ```
