@@ -4,7 +4,7 @@
 
 ## 安装
 
-<https://github.com/google/ngx_brotli>
+https://github.com/google/ngx_brotli
 
 cd ../ngx_brotli && git submodule update --init
 
