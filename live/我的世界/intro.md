@@ -1,3 +1,7 @@
+## 我的世界音乐
+
+https://y.qq.com/n/ryqq/albumDetail/003PNNFo1Ol1U9
+
 ## 创造模式
 
 命令行
