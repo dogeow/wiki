@@ -47,15 +47,6 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'minecraft',
-        path: 'minecraft',
-        routeBasePath: 'minecraft',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
         id: 'nav',
         path: 'nav',
         routeBasePath: 'nav',
@@ -225,12 +216,6 @@ const config = {
             label: 'Live',
             position: 'left',
             activeBaseRegex: `/live/`,
-          },
-          {
-            to: '/minecraft/Intro',
-            label: 'Minecraft',
-            position: 'left',
-            activeBaseRegex: `/minecraft/`,
           },
           {
             to: '/others/Intro',
