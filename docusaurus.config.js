@@ -74,15 +74,6 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'react',
-        path: 'react',
-        routeBasePath: 'react',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
         id: 'programmer',
         path: 'programmer',
         routeBasePath: 'programmer',
@@ -95,15 +86,6 @@ const config = {
         id: 'php',
         path: 'php',
         routeBasePath: 'php',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'laravel',
-        path: 'laravel',
-        routeBasePath: 'laravel',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
@@ -182,22 +164,10 @@ const config = {
             activeBaseRegex: `/php/`,
           },
           {
-            to: '/laravel/Intro',
-            label: 'Laravel',
-            position: 'left',
-            activeBaseRegex: `/laravel/`,
-          },
-          {
             to: '/javascript/Intro',
             label: 'JavaScript',
             position: 'left',
             activeBaseRegex: `/javascript/`,
-          },
-          {
-            to: '/react/Intro',
-            label: 'React',
-            position: 'left',
-            activeBaseRegex: `/reat/`,
           },
           {
               to: '/linux/Intro',
