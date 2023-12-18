@@ -7,20 +7,26 @@ sidebar_position: 1
 - UML
 - 设计模式
 - SOLID 原则
+- KISS - Keep It Simple, Stupid
 - 坏味道（Code Smell）
+- LOD - Law of Demeter(迪米特法则，又叫做最少知识原则)
+- YAGNI - You aren’t gonna need it
+- DRY - Don’t Repeat Yourself
 - 测试驱动开发（TDD）
 - 版本控制
 - 模块化和分层
 - 代码格式化
 - 持续集成和持续交付
+- 工厂和种子 
+- [十二要素](https://12factor.net/zh_cn/)
 
 ## 详细
 
 - SOLID 原则：
   - 单一职责原则
   - 开闭原则
-  - 里氏代换原则
-  - 依赖倒转原则
+  - 里氏替换原则
+  - 依赖反转原则
   - 接口隔离原则
 - 坏味道（Code Smell）
   - 代码重复
