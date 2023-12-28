@@ -44,3 +44,19 @@ https://2b2t.miraheze.org/wiki/Front_Page
 ### motd
 
 - https://tools.fadehost.com/motd-generator
+- 
+## 信息
+
+* [https://minecraft-ids.grahamedgecombe.com/ Minecraft ID List]
+* [https://server.properties/ server.properties 示例文件]
+* [https://minecraft-zh.gamepedia.com/Minecraft_Wiki 我的世界中文维基]
+  * [https://minecraft-zh.gamepedia.com/index.php?title=1.14.3&variant=zh 1.14.3 信息]
+
+## 插件
+
+* [https://www.worldpainter.net/ 地形编辑器 WorldPainter]
+* [http://www.mcedit.net/ 方块编辑器 mcedit]
+
+## 参见
+
+* https://linuxize.com/post/how-to-install-minecraft-server-on-ubuntu-18-04/
