@@ -1,8 +1,8 @@
 ## 命令
 
-* npm install <packageName> --f[orce]
+* npm install \<packageName> --f[orce]
   **npm install npm@latest -g
-* npm update <packageName>
+* npm update \<packageName>
 
 * npm -v #显示版本，检查npm 是否正确安装。
 * npm install -g express #全局安装express模块
@@ -17,7 +17,7 @@
   **npm show react
   **npm v react
 
-与 <nowiki>https://registry.npmjs.org/react，或</nowiki> <nowiki>https://registry.npmjs.org/react/v0.14.6</nowiki> 一致
+与 https://registry.npmjs.org/react，或 https://registry.npmjs.org/react/v0.14.6 一致
 
 ## 信息
 

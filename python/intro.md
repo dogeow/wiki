@@ -12,7 +12,7 @@ https://pymotw.com/3/
 - 在线编辑:http://www.learnpython.org/
 - Python站点收集：http://simple-is-better.com/sites/
 - 3的特性：http://asmeurer.github.io/python3-presentation/slides.html#1
-- <nowiki>http://python3-cookbook.readthedocs.org/zh_CN/latest/</nowiki>
+- http://python3-cookbook.readthedocs.org/zh_CN/latest/
 
 ##  学习教程
 
@@ -20,7 +20,7 @@ https://pymotw.com/3/
 * [http://www.pythondoc.com/ Python中文学习大本营]
 * http://www.yiibai.com/python/
 * [http://sebug.net/paper/python 简明Python教程]
-* <nowiki>http://www.jbxue.com/jb/python/</nowiki>
+* http://www.jbxue.com/jb/python/
 * 极客学院http://www.jikexueyuan.com/path/python/
 * 廖雪峰Python教程http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000
 * https://github.com/qiwsir/ITArticles/blob/master/BasicPython/index.md

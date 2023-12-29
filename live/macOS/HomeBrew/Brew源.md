@@ -46,9 +46,9 @@ git remote set-url origin https://github.com/Homebrew/homebrew-core.git
 
 ## 源列表
 
-1. <nowiki>https://mirrors.aliyun.com/homebrew/brew.git</nowiki> - 阿里云
+1. https://mirrors.aliyun.com/homebrew/brew.git - 阿里云
 
-2. <nowiki>https://git.coding.net/homebrew/homebrew.git</nowiki> - Coding
+2. https://git.coding.net/homebrew/homebrew.git - Coding
 
 ##  参考
 
