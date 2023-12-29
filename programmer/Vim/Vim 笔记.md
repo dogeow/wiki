@@ -159,9 +159,9 @@ ip 当前段落
 ap 当前段落及一个空格
 
 ##  sed 替换
-<nowiki>:</nowiki>s/target/replacement/
+:s/target/replacement/
 
-<nowiki>:</nowiki>s/target/replacement/g
+:s/target/replacement/g
 
 ##  窗口
 zz 光表所在行屏幕垂直中
@@ -186,11 +186,11 @@ C-k ?I
 @: 重复上一次命令
 
 ##  执行 Shell
-<nowiki>:</nowiki><nowiki>!ls</nowiki>
+:!ls
 
-<nowiki>:</nowiki><nowiki>!php % 执行当前文件，% 代表当前文件</nowiki>
+:!php % 执行当前文件，% 代表当前文件
 
-<nowiki>:</nowiki>shell 执行多行。可以使用 C-z 和 fg
+:shell 执行多行。可以使用 C-z 和 fg
 
 正则，去掉每行行首的空格 :%s/^ *//
 
