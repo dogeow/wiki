@@ -15,7 +15,7 @@ http://www.jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/?jianshu
 
 大写和小写: ⌘ + K then U, ⌘ + K then L
 
-用<nowiki><p>标签包裹行或选中项: CTRL + ⇧ + W</nowiki>
+用标签包裹行或选中项: CTRL + ⇧ + W
 
 上移或下移行 CTRL + ⌘ + ↑ 或 ↓
 
