@@ -1,0 +1,2 @@
+- https://github.com/jc91715/awesome-cheatsheets/blob/master/languages/bash.sh
+- https://www.reddragonfly.org/abscn/
