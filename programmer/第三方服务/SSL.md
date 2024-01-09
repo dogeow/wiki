@@ -4,6 +4,8 @@
 curl https://get.acme.sh | sh
 source ~/.bashrc
 acme.sh --register-account -m 你的邮箱
+# ZeroSSL 上次有报错，改为 letsencrypt
+acme.sh --set-default-ca --server letsencrypt
 ```
 
 ## 使用方式一：DNS（推荐）

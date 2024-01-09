@@ -5,7 +5,6 @@
 - 支付宝会员
 - 信用卡积分兑换
 - 京东 - 客户服务 - 一键保价
-- https://faucet.openkey.cloud/
 
 ## 学习
 

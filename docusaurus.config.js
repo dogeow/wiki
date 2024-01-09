@@ -168,7 +168,7 @@ const config = {
           },
           {
             to: '/live/Intro',
-            label: 'Live',
+            label: '生活',
             position: 'left',
             activeBaseRegex: `/live/`,
           },
