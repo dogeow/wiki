@@ -98,15 +98,6 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'python',
-        path: 'python',
-        routeBasePath: 'python',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
   ],
 
   presets: [
@@ -174,12 +165,6 @@ const config = {
               label: 'Linux',
               position: 'left',
               activeBaseRegex: `/linux/`,
-          },
-          {
-            to: '/python/Intro',
-            label: 'Python',
-            position: 'left',
-            activeBaseRegex: `/python/`,
           },
           {
             to: '/live/Intro',
