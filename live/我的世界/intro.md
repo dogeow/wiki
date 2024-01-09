@@ -17,7 +17,8 @@ https://aternos.org/:zh-CN/
 
 ## 学习网站
 
-https://www.tudoubaba.net/
+- https://www.tudoubaba.net/
+- [Shockbyte](https://shockbyte.com/billing/knowledgebase/135/How-to-Set-Up-a-World-Border.html)
 
 ## 资源网站
 
@@ -40,6 +41,8 @@ https://2b2t.miraheze.org/wiki/Front_Page
 - https://magma.ink/bluemap/
 - https://www.plotz.co.uk/
 - https://www.chunkbase.com/apps/
+- [投影](https://minecraftart.netlify.app/editor)
+- [图片转方块](https://rebane2001.com/mapartcraft/zh-Hans)
 
 ### motd
 
