@@ -65,9 +65,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'javascript',
-        path: 'javascript',
-        routeBasePath: 'javascript',
+        id: 'web',
+        path: 'web',
+        routeBasePath: 'web',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
@@ -164,10 +164,10 @@ const config = {
             activeBaseRegex: `/php/`,
           },
           {
-            to: '/javascript/Intro',
-            label: 'JavaScript',
+            to: '/web/Intro',
+            label: '网页设计',
             position: 'left',
-            activeBaseRegex: `/javascript/`,
+            activeBaseRegex: `/web/`,
           },
           {
               to: '/linux/Intro',
