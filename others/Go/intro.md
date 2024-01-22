@@ -12,6 +12,8 @@
 * [http://books.studygolang.com/The-Golang-Standard-Library-by-Example/chapter01/01.1.html Go 语言标准库], [http://cngolib.com/index.html Go 标准库中文文档]
 * [https://books.studygolang.com/gopl-zh/ Go 语言圣经]
 * [https://github.com/talkgo/night Go 夜读]
+* [Golang 不知名教程](https://www.topgoer.com/)
+* [Golang 入门到精通教程](https://geekr.dev/golang-tutorial)
 
 其他网站：
 
@@ -20,6 +22,7 @@
 资源
 
 * https://learnku.com/articles/41230
+* [Gopher网址导航](https://hao.studygolang.com/)
 
 [https://golang.org/ 下载]并安装 Golang
 
