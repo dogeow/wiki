@@ -210,6 +210,15 @@ const config = {
               },
             ],
           },
+          {
+            title: '友情链接',
+            items: [
+              {
+                label: '橘子巴士博客',
+                to: 'https://blog.orangbus.cn',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} DogeOW. 使用 <a href="https://docusaurus.io/zh-CN" target="_blank">Docusaurus</a> 构建。`,
       },
