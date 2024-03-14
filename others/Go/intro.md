@@ -14,6 +14,9 @@
 * [https://github.com/talkgo/night Go 夜读]
 * [Golang 不知名教程](https://www.topgoer.com/)
 * [Golang 入门到精通教程](https://geekr.dev/golang-tutorial)
+* https://golang.dbwu.tech/
+* https://www.bilibili.com/video/BV1d4411i7wD/?vd_source=c0a6f31b852b1cbd63bdad5f2f6f9270
+* https://gobyexample.com/constants
 
 其他网站：
 
