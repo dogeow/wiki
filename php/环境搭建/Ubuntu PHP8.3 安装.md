@@ -7,6 +7,12 @@ sudo apt update
 sudo apt upgrade
 ```
 
+## 一些基础的软件
+
+```shell
+sudo apt install screen htop git zip nload composer
+```
+
 ## PHP
 
 ### 安装新版本 PHP 8.2
@@ -93,12 +99,6 @@ sudo apt install php8.3-swoole
 ```
 
 开启 oepnssl 需要指定 openssl 路径
-
-## 一些基础的软件
-
-```shell
-sudo apt install screen htop git zip nload
-```
 
 ## 参见
 
