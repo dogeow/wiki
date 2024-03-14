@@ -31,7 +31,7 @@ sudo service php8.3-fpm restart
 
 参见
 
-* <https://www.nginx.com/resources/wiki/start/topics/tutorials/install/#official-debian-ubuntu-packages>
+* https://www.nginx.com/resources/wiki/start/topics/tutorials/install/#official-debian-ubuntu-packages
 * https://nginx.org/en/linux_packages.html#instructions
 
 ```
@@ -102,10 +102,10 @@ sudo apt install screen htop git zip nload
 
 ## 参见
 
-1. <https://www.cloudbooklet.com/install-php-7-4-on-ubuntu/>
-2. <https://www.cloudbooklet.com/upgrade-php-version-to-php-7-4-on-ubuntu/>
+1. https://www.cloudbooklet.com/install-php-7-4-on-ubuntu/
+2. https://www.cloudbooklet.com/upgrade-php-version-to-php-7-4-on-ubuntu/
 3. [https://www.nginx.com/resources/wiki/start/topics/tutorials/install/#official-debian-ubuntu-packages··](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/#official-debian-ubuntu-packages%C2%B7%C2%B7)
-4. <https://php.watch/articles/php-8.0-installation-update-guide-debian-ubuntu>
-5. <https://lynxbee.com/how-to-resolve-fatal-error-curl-curl-h-no-such-file-or-directory-for-ubuntu-linux/>
-6. <https://www.swoole.co.uk/docs/get-started/installation>
+4. https://php.watch/articles/php-8.0-installation-update-guide-debian-ubuntu
+5. https://lynxbee.com/how-to-resolve-fatal-error-curl-curl-h-no-such-file-or-directory-for-ubuntu-linux/
+6. https://www.swoole.co.uk/docs/get-started/installation
 7. https://www.vultr.com/docs
