@@ -15,7 +15,12 @@ sidebar_position: 1
 - 测试驱动开发（TDD）
 - 版本控制
 - 模块化和分层
+- 中文文案排版指北
+- EditorConfig
 - 代码格式化
+- PHP 之道
+- 语义化版本
+- 十二要素应用
 - 持续集成和持续交付
 - 工厂和种子 
 - [十二要素](https://12factor.net/zh_cn/)
