@@ -222,7 +222,7 @@ const config = {
         appId: 'P72CRBQONB',
 
         // Public API key: it is safe to commit it
-        apiKey: 'a40f5e3f8437f32fedc9e38724a37ba4',
+        apiKey: '1d9ea98e9dcca8f620a691b4fb97b16d',
 
         indexName: 'antic',
 
