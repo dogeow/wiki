@@ -18,16 +18,7 @@ sudo apt install nginx-full
 
 ## MySQL 5.7
 
-
-```shell
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
-sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb
-sudo apt-get update
-sudo apt-cache policy mysql-server
-sudo apt install -f mysql-client=5.7.33-1ubuntu18.04 mysql-community-server=5.7.33-1ubuntu18.04 mysql-server=5.7.33-1ubuntu18.04
-sudo apt install mysql-client mysql-server
-sudo mysql_secure_installation
-```
+见单独的
 
 ## 参考
 
