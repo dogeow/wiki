@@ -83,6 +83,15 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'ai',
+        path: 'ai',
+        routeBasePath: 'ai',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'php',
         path: 'php',
         routeBasePath: 'php',
@@ -135,6 +144,12 @@ const config = {
             href: 'https://github.com/dogeow/wiki',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            to: '/ai/Intro',
+            label: 'AI',
+            position: 'left',
+            activeBaseRegex: `/ai/`,
           },
           {
             to: '/nav/Intro',
