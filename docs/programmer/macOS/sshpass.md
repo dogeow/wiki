@@ -2,7 +2,11 @@
 - http://wxl24life.iteye.com/blog/2128401
 
 ##  安装
-`brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb`
+
+```shell
+wget https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+brew install sshpass.rb
+```
 
 ##  使用
 
