@@ -7,7 +7,7 @@ sidebar_position: 2
 ## 下载
 
 ```shell
-git clone https://github.com/likunyan/spider-api
+git clone https://github.com/dogeow/spider-api
 cd spider-api
 mkdir cache
 php artisan spider example.com
