@@ -8,22 +8,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  themes: [
-    // ... Your other themes.
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        language: ["en", "zh"],
-        // ```
-      }),
-    ],
-  ],
+  // themes: [
+  //   // ... Your other themes.
+  //   [
+  //     require.resolve("@easyops-cn/docusaurus-search-local"),
+  //     /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+  //     ({
+  //       // ... Your options.
+  //       // `hashed` is recommended as long-term-cache of index file is possible.
+  //       hashed: true,
+  //       // For Docs using Chinese, The `language` is recommended to set to:
+  //       // ```
+  //       language: ["en", "zh"],
+  //       // ```
+  //     }),
+  //   ],
+  // ],
   title: '编程笔记',
   tagline: '软件开发是一门技术，更是一门艺术！',
   favicon: 'img/favicon.ico',
