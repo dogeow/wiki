@@ -8,6 +8,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
   title: '编程笔记',
   tagline: '软件开发是一门技术，更是一门艺术！',
   favicon: 'img/favicon.ico',
@@ -35,78 +51,7 @@ const config = {
   },
 
   plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'others',
-        path: 'others',
-        routeBasePath: 'others',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'nav',
-        path: 'nav',
-        routeBasePath: 'nav',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'live',
-        path: 'live',
-        routeBasePath: 'live',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'web',
-        path: 'web',
-        routeBasePath: 'web',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'programmer',
-        path: 'programmer',
-        routeBasePath: 'programmer',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'ai',
-        path: 'ai',
-        routeBasePath: 'ai',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'php',
-        path: 'php',
-        routeBasePath: 'php',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'linux',
-        path: 'linux',
-        routeBasePath: 'linux',
-        sidebarPath: require.resolve('./sidebars.js'),
-      },
-    ],
+
   ],
 
   presets: [
@@ -146,31 +91,31 @@ const config = {
             position: 'right',
           },
           {
-            to: '/ai/Intro',
+            to: '/docs/ai/Intro',
             label: 'AI',
             position: 'left',
             activeBaseRegex: `/ai/`,
           },
           {
-            to: '/nav/Intro',
+            to: '/docs/nav/Intro',
             label: '导航',
             position: 'left',
             activeBaseRegex: `/nav/`,
           },
           {
-            to: '/programmer/Intro',
+            to: '/docs/programmer/Intro',
             label: '程序员',
             position: 'left',
             activeBaseRegex: `/programmer/`,
           },
           {
-            to: '/php/Intro',
+            to: '/docs/php/Intro',
             label: 'PHP',
             position: 'left',
             activeBaseRegex: `/php/`,
           },
           {
-            to: '/web/Intro',
+            to: '/docs/web/Intro',
             label: '网页设计',
             position: 'left',
             activeBaseRegex: `/web/`,
@@ -182,13 +127,13 @@ const config = {
               activeBaseRegex: `/linux/`,
           },
           {
-            to: '/live/Intro',
+            to: '/docs/live/Intro',
             label: '生活',
             position: 'left',
             activeBaseRegex: `/live/`,
           },
           {
-            to: '/others/Intro',
+            to: '/docs/others/Intro',
             label: '杂项',
             position: 'left',
             activeBaseRegex: `/others/`,
@@ -231,35 +176,6 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: 'P421MXVJ2X',
-
-        // Public API key: it is safe to commit it
-        apiKey: '3524d32000b7bf24c753e58e0dcf4444',
-
-        indexName: 'dogeow',
-
-        // Optional: see doc section below
-        contextualSearch: true,
-
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
-
-        // Optional: Algolia search parameters
-        searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-
-        //... other Algolia params
       },
     }),
 };
