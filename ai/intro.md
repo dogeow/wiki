@@ -2,6 +2,7 @@
 
 - https://devv.ai/zh 程序员 AI
 - https://gpt4all.io/index.html 本地 AI
+- https://www.closeai-asia.com/dashboard/ API 接口
 
 ## 做图
 
