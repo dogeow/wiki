@@ -17,9 +17,10 @@ const config = {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
+        removeDefaultStemmer: true,
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
-        language: ["en", "zh"],
+        // language: ["en", "zh"],
         // ```
       }),
     ],
