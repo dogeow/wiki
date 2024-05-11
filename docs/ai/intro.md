@@ -1,5 +1,6 @@
 ## 搜索
 
+- [ChatGPT](https://chat.openai.com/)
 - https://devv.ai/zh 程序员 AI，免费。
 - https://udify.app/chat/ToIyNfYIpbpUlVpE 免费 AI
 - https://gpt4all.io/index.html 本地 AI
