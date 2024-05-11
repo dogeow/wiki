@@ -1,11 +1,12 @@
 ## 搜索
 
 - https://devv.ai/zh 程序员 AI，免费。
+- https://udify.app/chat/ToIyNfYIpbpUlVpE 免费 AI
 - https://gpt4all.io/index.html 本地 AI
 - https://www.closeai-asia.com/dashboard/ API 接口
-- [Gemini](https://ai.google.dev/) - 谷歌
+- [Gemini](https://ai.google.dev/) - 谷歌，有免费的。
 
-## 做图
+## 图片风格提示语
 
 * Polaroid 宝丽来
 * vaporwave 蒸汽波
