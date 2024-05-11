@@ -1,8 +1,9 @@
 ## 搜索
 
-- https://devv.ai/zh 程序员 AI
+- https://devv.ai/zh 程序员 AI，免费。
 - https://gpt4all.io/index.html 本地 AI
 - https://www.closeai-asia.com/dashboard/ API 接口
+- [Gemini](https://ai.google.dev/) - 谷歌
 
 ## 做图
 
