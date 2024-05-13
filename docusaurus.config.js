@@ -39,7 +39,7 @@ const config = {
 
   plugins: [
     [ require.resolve('docusaurus-lunr-search'), {
-      languages: ['en', 'zh']
+      languages: ['en', 'zh-Hans']
     }],
     [
       '@docusaurus/plugin-content-docs',
