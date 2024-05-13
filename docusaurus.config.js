@@ -38,7 +38,9 @@ const config = {
   },
 
   plugins: [
-    require.resolve('docusaurus-lunr-search'),
+    [ require.resolve('docusaurus-lunr-search'), {
+      languages: ['en', 'zh']
+    }],
     [
       '@docusaurus/plugin-content-docs',
       {
