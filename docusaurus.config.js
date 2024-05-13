@@ -33,13 +33,13 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'zh',
+    locales: ['zh'],
   },
 
   plugins: [
     [ require.resolve('docusaurus-lunr-search'), {
-      languages: ['en', 'zh-Hans']
+      languages: ['en', 'zh']
     }],
     [
       '@docusaurus/plugin-content-docs',
