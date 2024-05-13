@@ -38,7 +38,78 @@ const config = {
   },
 
   plugins: [
-
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'others',
+        path: 'others',
+        routeBasePath: 'others',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'nav',
+        path: 'nav',
+        routeBasePath: 'nav',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'live',
+        path: 'live',
+        routeBasePath: 'live',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'web',
+        path: 'web',
+        routeBasePath: 'web',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'programmer',
+        path: 'programmer',
+        routeBasePath: 'programmer',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'ai',
+        path: 'ai',
+        routeBasePath: 'ai',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'php',
+        path: 'php',
+        routeBasePath: 'php',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'linux',
+        path: 'linux',
+        routeBasePath: 'linux',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
 
   presets: [
