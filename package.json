@@ -18,6 +18,7 @@
     "@docusaurus/plugin-content-docs": "^3.2.1",
     "@docusaurus/preset-classic": "^3.2.1",
     "@mdx-js/react": "^3.0.0",
+    "@node-rs/jieba": "^1.10.3",
     "clsx": "^1.2.1",
     "docusaurus-lunr-search": "^3.4.0",
     "prism-react-renderer": "^2.1.0",
