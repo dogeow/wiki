@@ -1,2 +1,3 @@
+- [Amber 语言](https://amber-lang.com/) - 转为 shell 代码
 - https://github.com/jc91715/awesome-cheatsheets/blob/master/languages/bash.sh
 - https://www.reddragonfly.org/abscn/
