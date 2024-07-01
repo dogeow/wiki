@@ -33,6 +33,10 @@ sudo ~/.acme.sh/acme.sh --issue -d 输入您的域名 -d www.输入您的域名 
 
 `sudo ~/.acme.sh/acme.sh --issue -d 输入您的域名 -d www.输入您的域名 --webroot /var/www/laravel/public/`
 
+## 本地 localhost 证书
+
+https://letsencrypt.org/zh-cn/docs/certificates-for-localhost/
+
 ## bug
 
 近期提示：Usage: _hmac hashalg secret [outputhex]
