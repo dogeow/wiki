@@ -17,7 +17,7 @@ sudo apt install screen htop git zip nload composer
 
 ### 安装新版本 PHP 8.2
 
-不建议最新的版本
+> 不建议最新的版本 PHP 8.3
 
 ```shell
 # 添加源并更新
@@ -51,17 +51,15 @@ sudo apt install nginx-full
 最新的 MySQL 软件包从 https://dev.mysql.com/downloads/repo/apt/ 查看
 
 ```shell
-wget -c https://repo.mysql.com/mysql-apt-config_0.8.24-1_all.deb
-sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
-apt update
-apt install mysql-server mysql-client
+wget -c https://repo.mysql.com/mysql-apt-config_0.8.32-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb
+sudo apt update
+sudo apt install mysql-server mysql-client
 ```
 
 ```
 mysql_secure_installation # 执行一些安全配置
 ```
-
-> 安装后，密码在 /etc/mysql/debian.cnf，数据路径在 /var/lib/mysql
 
 ## Redis
 
@@ -92,9 +90,9 @@ n stable
 ## Swoole
 
 ```shell
-sudo apt install php-pear php8.3-dev
+sudo apt install php-pear php8.2-dev
 sudo pecl install swoole
-sudo apt install php8.3-swoole
+sudo apt install php8.2-swoole
 ```
 
 开启 oepnssl 需要指定 openssl 路径
