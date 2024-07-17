@@ -35,17 +35,14 @@ sudo service php8.3-fpm restart
 
 ## Nginx
 
-参见
-
-* https://www.nginx.com/resources/wiki/start/topics/tutorials/install/#official-debian-ubuntu-packages
-* https://nginx.org/en/linux_packages.html#instructions
-
 ```
 sudo add-apt-repository ppa:ondrej/nginx
 sudo apt-get update
 # 建议安装完整功能版，有限流等功能。
 sudo apt install nginx-full
 ```
+
+> [Nginx 文档](https://nginx.org/en/docs/)
 
 ## MySQL
 
