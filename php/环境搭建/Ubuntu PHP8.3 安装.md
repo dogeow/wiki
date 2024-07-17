@@ -17,6 +17,8 @@ sudo apt install screen htop git zip nload composer
 
 ### 安装新版本 PHP 8.2
 
+不建议最新的版本
+
 ```shell
 # 添加源并更新
 sudo apt -y install software-properties-common
@@ -24,13 +26,13 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 
 # 安装 PHP-FPM 和扩展
-sudo apt install php8.3-fpm php8.3-{mbstring,mysql,curl,xml,redis}
+sudo apt install php8.2-fpm php8.2-{mbstring,mysql,curl,xml,redis}
 
 # 验证
-sudo php-fpm8.3 -t
+sudo php-fpm8.2 -t
 
 # 开启
-sudo service php8.3-fpm restart
+sudo service php8.2-fpm restart
 ```
 
 ## Nginx
