@@ -43,7 +43,7 @@ sudo service php8.3-fpm restart
 ```
 sudo add-apt-repository ppa:ondrej/nginx
 sudo apt-get update
-# 建议安装完整功能版，有限流等公功能。
+# 建议安装完整功能版，有限流等功能。
 sudo apt install nginx-full
 ```
 
