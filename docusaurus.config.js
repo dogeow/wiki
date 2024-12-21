@@ -191,12 +191,8 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '旗下网站',
+            title: '关联站点',
             items: [
-              {
-                label: '2B2T 服务器状态',
-                href: 'https://status.mc.dogeow.com',
-              },
               {
                 label: 'Doge 先锋',
                 href: 'https://dogeow.com',
