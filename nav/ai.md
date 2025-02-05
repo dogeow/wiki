@@ -2,11 +2,16 @@
 
 - [ChatGPT](https://chat.openai.com/)
 - [kimi](https://kimi.moonshot.cn/)
+- [DeepSeek](https://chat.deepseek.com/)
 - [coze](https://www.coze.com/)
 - https://devv.ai/zh 程序员 AI，免费。
 - https://gpt4all.io/index.html 本地 AI
 - https://www.closeai-asia.com/dashboard/ API 接口
 - [Gemini](https://ai.google.dev/) - 谷歌
+
+## 工具
+
+- [Cursor](https://www.cursor.com/)
 
 ## 图片风格提示语
 
