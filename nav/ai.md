@@ -4,6 +4,7 @@
 - [kimi](https://kimi.moonshot.cn/)
 - [DeepSeek](https://chat.deepseek.com/)
 - [coze](https://www.coze.com/)
+- https://gemini.google.com/
 - https://devv.ai/zh 程序员 AI，免费。
 - https://gpt4all.io/index.html 本地 AI
 - https://www.closeai-asia.com/dashboard/ API 接口
